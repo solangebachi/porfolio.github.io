@@ -1,0 +1,82 @@
+*
+body{
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://wallsdesk.com/wp-content/uploads/2017/01/Buenos-Aires-full-HD.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  text-align: center;
+}
+section{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+#title{
+font-size: 3em;
+color: white;
+text-shadow: 2px 2px 2px black;
+}
+#description{
+font-size: 1.5em;
+color: white;
+text-shadow: 2px 2px 2px black;
+}
+#survey-form{
+  background:rgba(253, 253, 253, 0.64);
+  width: 60%;
+  display: block;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  border-radius: 5px;
+
+}
+label{
+  margin-left: 40px;
+  font-weight: bold;
+
+}
+#name, #email, #number{
+  display: block;
+  margin: 5px auto;
+  width: 84%;
+  padding: 15px;
+  border:solid white;
+  border-radius: 5px;
+
+}
+#dropdown{
+  text-align: left;
+  margin: 0px auto;
+  width: 84%;
+  padding: 15px;
+  border:solid white;
+  border-radius: 5px;
+}
+.option{
+  background:rgba(253, 253, 253, 0.64);
+  display: block;
+  margin:10px auto;
+  padding: 25px;
+  width: 90%;
+
+}
+.option input{
+  margin: 10px;
+}
+
+#submit{
+  background-color: #0072bb;
+  padding: 10px;
+  width: 40%;
+  display: block;
+  margin: 20px auto;
+  color: white;
+  border-radius: 2px;
+}

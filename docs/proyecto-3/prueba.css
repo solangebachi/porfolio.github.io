@@ -1,0 +1,105 @@
+body{
+  background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#header-img{
+  max-width: 15%;
+  display: block;
+  margin: auto;
+
+}
+#title{
+  text-align:center;
+  color:red;
+  font-size: 5em;
+}
+#header{
+margin:-10px;
+}
+.video{
+  position: relative;
+  z-index: 0;
+}
+#nav-bar{
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: 70px;
+
+}
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.nav-link{
+  text-decoration:none;
+  margin: 10px;
+  font-size:1.5em;
+  color: black;
+  padding: 20px;
+}
+.nav-link:hover{
+  border-bottom: solid blue 2px;
+}
+#subtitle{
+   text-align:center;
+  color:blue;
+  font-size: 2.5em;
+}
+#info-main{
+  display: block;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#description{
+  text-align: center;
+  font-size: 1.1em;
+}
+.lista{
+  font-size: 1.2em;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+.lista ul{
+
+  width: %;
+}
+.lista ul li{
+  padding: 10px;
+  list-style: none;
+  margin: 15px;
+}
+#video{
+  display: block;
+  margin: auto;
+}
+.registro{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  max-width: 30%;
+  height: 30vh;
+  margin: auto;
+  border: solid 1px black;
+  border-radius: 2%;
+  text-align:center;
+  padding: 5%;
+  font: 2em;
+}
+#email{
+  display: block;
+  margin: 0 auto;
+
+}
+@media query(max-width:250px) {
+  .registro{
+    max-width: 90vw;
+  }
+
+}
