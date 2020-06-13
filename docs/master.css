@@ -42,7 +42,7 @@ padding: 25px;
   flex-flow:wrap;
 }
 #welcome-section{
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://wallpaperplay.com/walls/full/a/e/4/231745.jpg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(images/fondo-1.jpg);
 background-attachment: fixed;
 background-position: center;
 height:100vh;
@@ -78,7 +78,7 @@ transform:scale(1.25);
   text-shadow: 3px 3px 3px black;
 }
 #projects{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://wallpaperplay.com/walls/full/0/5/6/231800.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/fondo-2.jpg);
   background-attachment: fixed;
   background-position: center;
   width: 100%;
@@ -96,38 +96,18 @@ font-family: 'Lora', serif;
 font-size: 3em;
 color: white;
 }
-#p1{
-  background-image: url(images/p1.jpg);
-  background-position: center;
-}
-#p2{
-  background-image: url(images/p2.jpg);
-  background-position: center;
-}
-#p3{
-  background-image: url(images/p3.jpg);
-}
-#p4{
-  background-image: url(images/p4.jpg);
-}
-#p5{
-  background-image: url(images/p5.jpg);
-}
-#p6{
-  background-image: url(images/p6.jpg);
-}
 .project{
-  background-image:url();
-  background-position: center;
-  width: 27%;
-  height: 65vh;
-  margin: 25px;
-  display: flex;
-  flex-direction: column;
-  min-width: 250px;
-  justify-content: flex-end;
-  padding: 2px;
-  border-radius: 5px;
+    padding: 5px;
+    max-width:25%;
+    display: block;
+    margin: 10px auto;
+  
+}
+.project a img{
+      display: block;
+      margin: auto;
+      max-width: 98%;
+      height: auto;
 }
 .project:hover{
   -webkit-transform:scale(1.1);
@@ -136,7 +116,7 @@ color: white;
   -o-transform:scale(1.1);
   transform:scale(1.1);
 }
-.project p{
+.project figcaption{
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   padding: 10px 0;
   width: 100%;
@@ -144,7 +124,7 @@ color: white;
 
 }
 #section-cont{
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://wallpaperplay.com/walls/full/1/a/4/231749.jpg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/fondo-3.jpg);
 background-attachment: fixed;
 background-position: center;
 
